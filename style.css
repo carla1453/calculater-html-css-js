@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  background-color: rgb(126, 126, 184);
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header > .numbers {
+  display: flex;
+}
+
+.title {
+  color: white;
+}
+.paragraph {
+  color: white;
+}
+.put {
+  background-color: rgb(14, 68, 112);
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  color: white;
+  text-align: right;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 60px);
+  gap: 10px;
+  background-color: rgb(14, 68, 112);
+  justify-content: center;
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 10px;
+}
+.Del {
+  background-color: blue;
+  border-radius: 8px;
+  color: white;
+}
+.Rest {
+  background-color: blue;
+  padding: 5px;
+  border-radius: 8px;
+  grid-column: 1 / 3;
+  cursor: pointer;
+  color: white;
+}
+.yusawi {
+  background-color: crimson;
+  padding: 8px;
+  border-radius: 8px;
+  grid-column: 3 / 5;
+  cursor: pointer;
+  color: white;
+}
+.nine {
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.nine:hover {
+  background-color: rgb(59, 157, 202);
+  transition: 0.5s all ease;
+}
